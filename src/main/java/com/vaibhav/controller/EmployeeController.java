@@ -27,7 +27,7 @@ public class EmployeeController {
 		Employee emp = employeeService.saveEmployee(employee);
 		logger.info("In the EmployeeController Class");
 		System.out.println("some changes have been made");
-		System.out.println("Changes for the second time");
+		
 		return ResponseEntity.ok().body(emp);
 		
 	}
